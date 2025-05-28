@@ -1,7 +1,7 @@
 
     async function fetchData() {
       try {
-        const response = await fetch("http://www.omdbapi.com/?s=guardians&apikey=2649d654");
+        const response = await fetch("https://www.omdbapi.com/?s=guardians&apikey=2649d654");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
